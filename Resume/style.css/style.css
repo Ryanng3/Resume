@@ -59,3 +59,155 @@ body{
     font-size: 0.8em;
     font-weight: 300;
 }
+
+.workExp {
+    position: relative;
+    
+    
+}
+
+
+.workExp h2{
+    color:#003147;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.yearComp h3{
+    font-size: 75%;
+}
+
+li{
+    color: #333;
+    padding: 2px 0px;
+    font-size: 15px;
+}
+.text {
+    padding: 0px 20px;
+}
+.workExp .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.workExp .box .yearComp{
+    min-width: 130px;
+}
+
+.workExp .box .yearComp h3{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.text h3{
+    color: #2a7da2;
+    font-size: 16px;
+}
+
+.skills h2{
+    color:#003147;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.skills .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.skills .box h3{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+    font-size: 90%;
+}
+
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #f0f0f0;
+    margin-top: 5px;
+}
+
+.skills .box .percent div{
+    position: absolute;
+    top: 0;
+    Left: 00;
+    height: 100%;
+    background: #03a9f4;
+}
+
+.contactInfo{
+    padding-top: 40px;
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 2px 0;
+}
+
+.contactInfo ul{
+    position: relative;
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 80%;
+}
+
+.contactInfo ul li .icon{
+    display: inline-block ;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.education li{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.education h3{
+    color: #03a9f4;
+    font-weight: 500;
+    font-size: 95%;
+    padding: 5px 0;
+}
+
+.education h4{
+    color: #fff;
+    font-weight: 500;
+    font-size: 95%;
+}
+
+#year{
+    list-style: none;
+} 
+
+.bullet{
+    font-size: 90%;
+}
